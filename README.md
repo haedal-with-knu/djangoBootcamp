@@ -6,5 +6,10 @@
 아직도 초심자에게 노트북에 IDE 및 개발환경 세팅하라고 하는 사람은 없겠죠?  
 > 해달 1기들에게 정말 미안합니다 ㅠㅠ
 
-# 가즈아ㅏㅏㅏ
+## 강의 내용
 
+### [1. 장고랑 친해지자](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/tutorials.md)  
+
+### ㅁㄴㅇㄹ
+
+###  ㅁㄴㅇㄹ
