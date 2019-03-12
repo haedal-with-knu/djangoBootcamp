@@ -10,6 +10,13 @@
 
 ### [1. 장고랑 친해지자](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/tutorials.md)  
 
-### ㅁㄴㅇㄹ
+### [2. 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
 
-###  ㅁㄴㅇㄹ
+### [2B. 이쁘게 이쁘게]()
+### [3. 이미지 업로드]()
+
+### [4. 댓글]()
+### [5. 검색]()
+### [6. 해시태그]()
+### [7. 로그인 및 회원가입]()
+### [8. 클라우드 서버에 베포하기]()
