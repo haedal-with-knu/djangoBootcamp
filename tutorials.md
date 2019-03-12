@@ -80,7 +80,7 @@ ALLOWED_HOSTS = ['*']
 
 설정한 URL을 누르면  
 
-![img/django_work_successfully.png](djangoBootcamp/img/django_work_successfully.png)  
+![img/django_work_successfully.png](img/django_work_successfully.png)  
 
 ### 성공!!
 
