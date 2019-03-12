@@ -75,12 +75,12 @@ ALLOWED_HOSTS = ['*']
 서버가 켜진다고 shell에서 말해줄텐데   
 구름 ide에서 외부 `URL`로 연결하기 위해  
 실행 `URL`과 `포트`를 설정해야합니다  
-![djangoBootcamp/img/goormideURLPort.png](djangoBootcamp/img/goormideURLPort.png)  
-![djangoBootcamp/img/URLnPort.png](djangoBootcamp/img/URLnPort.png)  
+![img/goormideURLPort.png](img/goormideURLPort.png)  
+![img/URLnPort.png](img/URLnPort.png)  
 
 설정한 URL을 누르면  
 
-![djangoBootcamp/img/django_work_successfully.png](djangoBootcamp/img/django_work_successfully.png)  
+![img/django_work_successfully.png](djangoBootcamp/img/django_work_successfully.png)  
 
 ### 성공!!
 
