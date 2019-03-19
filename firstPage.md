@@ -182,5 +182,5 @@ STATICFILES_DIRS = (
 TIME_ZONE = 'Asia/Seoul'
 ```
 
-## 이쁜 디자인과 내용을 채워봅시다
-### [2B. 이쁘게 이쁘게](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/frondEnd.md)
+## 다음 강의는
+### [2B. 프론트엔드 입문](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/frondEnd.md)

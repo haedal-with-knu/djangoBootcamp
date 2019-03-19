@@ -83,5 +83,5 @@ ALLOWED_HOSTS = ['*']
 ![img/django_work_successfully.png](img/django_work_successfully.png)  
 
 ### 성공!!
-## 첫 페이지 만들어 봅니다
+## 다음 강의는
 ### [2A. 첫 페이지 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/firstPage.md)

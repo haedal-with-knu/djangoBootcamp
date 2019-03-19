@@ -11,7 +11,7 @@
 ### [1. 장고랑 친해지자](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/tutorials.md)  
 
 ### [2A. 첫 페이지 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/firstPage.md)
-### [2B. 이쁘게 이쁘게](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/frondEnd.md)
+### [2B. 프론트엔드 입문](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/frondEnd.md)
 
 ### [3. 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
 
