@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+# main 어플리케이션의 view에서 index 페이지를 불러오자
+from main.views import index
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # 웹사이트의 첫화면은 index 페이지이다
+    path('', index),
 ]

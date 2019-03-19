@@ -10,13 +10,16 @@
 
 ### [1. 장고랑 친해지자](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/tutorials.md)  
 
-### [2. 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
+### [2A. 첫 페이지 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/firstPage.md)
+### [2B. 이쁘게 이쁘게](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/frondEnd.md)
 
-### [2B. 이쁘게 이쁘게]()
-### [3. 이미지 업로드]()
+### [3. 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
 
-### [4. 댓글]()
-### [5. 검색]()
-### [6. 해시태그]()
-### [7. 로그인 및 회원가입]()
-### [8. 클라우드 서버에 배포하기]()
+
+### [4. 이미지 업로드]()
+
+### [5. 댓글]()
+### [6. 검색]()
+### [7. 해시태그]()
+### [8. 로그인 및 회원가입]()
+### [9. 클라우드 서버에 배포하기]()
