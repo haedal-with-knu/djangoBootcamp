@@ -93,12 +93,12 @@ def index(request):
 `mysite/main/templates/main/index.html`
 ```html
 <html>
-<head>
-    <title>Django Tutorial</title>
-</head>
-<body>
-    <h1>메인 페이지입니다</h1>
-</body>
+    <head>
+        <title>Django Tutorial</title>
+    </head>
+    <body>
+        <h1>메인 페이지입니다</h1>
+    </body>
 </html>
 ```
 
@@ -153,15 +153,15 @@ STATICFILES_DIRS = (
 `mysite/main/templates/main/index.html`
 ```html
 <html>
-<head>
-    <title>Django Tutorial</title>
-</head>
-<body>
-    <h1>메인 페이지입니다</h1>
-    <!-- 정적 이미지 불러오기 -->
-    {% load static %}
-    <img src="{% static 'haedal_logo.png' %}">
-</body>
+    <head>
+        <title>Django Tutorial</title>
+    </head>
+    <body>
+        <h1>메인 페이지입니다</h1>
+        <!-- 정적 이미지 불러오기 -->
+        {% load static %}
+        <img src="{% static 'haedal_logo.png' %}">
+    </body>
 </html>
 ```
 
@@ -183,4 +183,4 @@ TIME_ZONE = 'Asia/Seoul'
 ```
 
 ## 다음 강의는
-### [2B. 프론트엔드 입문](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/frondEnd.md)
+### [2B. 프론트엔드 입문](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/frontEnd.md)
