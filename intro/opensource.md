@@ -32,3 +32,5 @@
 집 짓는 것에 집중할 수 있습니다.  
 장인이 만든 벽돌을 사용한다면 믿고 멋진 집을 지을 수 있습니다.  
 
+## 다음 강의는
+### [어떻게 오픈소스를 사용하나요?](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/howToUseOpensource.md)

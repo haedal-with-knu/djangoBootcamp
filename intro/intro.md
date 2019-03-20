@@ -31,3 +31,6 @@
 # 두려워하지 마세요!
 <strong>천릿길도 한 걸음부터</strong>란 속담을 아시나요?  
 함께 첫 걸음을 내딛어 보아요.  
+
+## 다음 강의는 
+### [요즘엔 오픈소스를 사용한다고?](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/opensource.md)

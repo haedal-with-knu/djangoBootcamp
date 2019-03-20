@@ -12,3 +12,6 @@
 [Github이 뭔지 궁금한가요?](https://github.com/features)  
 
 ![../img/github.png](../img/github.png)
+
+## 다음 강의는 
+### [Github 회원가입](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/githubSignUp.md)

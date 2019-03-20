@@ -33,3 +33,6 @@ Github에서 무엇을 하고 싶은지,
 ### Your email was verified이란 파란 배너가 있으면 정상입니다
 
 ![../img/githubsignup5.png](../img/githubsignup5.png)  
+
+## 다음 강의는
+### [저도 오픈소스 프로젝트 진행하고 싶습니다](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/iWantOpensource.md)
