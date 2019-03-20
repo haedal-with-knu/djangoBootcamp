@@ -59,6 +59,7 @@
 <html>
     <head>
         <title>Django Tutorial</title>
+        <!-- Bootstrap CDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
@@ -66,8 +67,136 @@
     </body>
 </html>
 ```
+### [Container](https://getbootstrap.com/docs/4.3/layout/overview/)
+기술의 발달로 PC의 경우는 가로가 넓어지고, 모바일의 경우 세로가 넓어졌습니다.  
+웹페이지는 기기들의 다양한 디스플레이에 탄력적으로 대응해야 했습니다.  
+[반응형 웹](https://developers.google.com/web/fundamentals/design-and-ux/responsive/?hl=ko)이란 기술로 여러 기기들에 대응하게 됩니다.  
+이를 가장 쉽게 이해할 수 있는 개념이 `Container`입니다.  
+코드를 입력해보며 손으로 익혀봅니다.
 
-### [`Bootstrap` Navbar](https://getbootstrap.com/docs/4.3/components/navbar/)
+`<body>` 태그 안의 내용을 `<div class=conatiner>`로 감싸봅니다
+`mysite/main/templates/main/index.html`
+```html
+<html>
+    <head>
+        <title>Django Tutorial</title>
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- container 사용하기-->
+        <div class="container">
+            <h1>메인 페이지입니다</h1>
+            <!-- 정적 이미지 불러오기 -->
+            {% load static %}
+            <img class="img-fluid" src="{% static 'haedal_logo.png' %}">    
+        </div>
+        
+    </body>
+</html>
+```
+
+![img/bootstrapContainer.png](img/bootstrapContainer.png)
+
+
+### [Grid 시스템(Col, Row)](https://getbootstrap.com/docs/4.3/layout/grid/)
+격자(`Grid`) 형식으로 디스플레이를 나누어 콘텐츠들을 배치하는 방식으로  
+가로축을 `Col`, 세로축을 `Row`로 나타냅니다
+
+페이스북, 인스타그램에서 많이 본 `Card`형식의 게시글들을 나타내려면  
+적당한 크기의 가로로 배치하는 것이 중요합니다.
+> 세로로 긴 글은 스크롤을 내리면 되니 문제가 덜 생깁니다
+
+화면의 가로 축을 12칸으로 나누어 기기마다 대응합니다.
+
+디스플레이 마다 대응하기엔 아직 힘드니 PC에서 진행해봅니다.
+`mysite/main/templates/main/index.html`
+```html
+<html>
+    <head>
+        <title>Django Tutorial</title>
+        <!-- 한국말을 사용하겠다 -->
+        <meta charset="utf-8">
+        <!-- 화면 너비에 맞게 페이지를 맞추겠다 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- container 사용하기-->
+        <div class="container">
+            <h1>Grid 공부하기 - Col,Row</h1>
+            <!-- Grid 시스템을 사용하겠다 -->
+            <div class="row">
+                <!-- 3칸짜리 div를 만듭니다. 파란색이고, padding은 3만큼 넣습니다 -->
+                <div class="col-sm-3 bg-primary p-3">col-3</div>
+                <div class="col-sm-3 bg-primary p-3">col-3</div>
+                <div class="col-sm-3 bg-primary p-3">col-3</div>
+                <div class="col-sm-3 bg-primary p-3">col-3</div>
+                <div class="col-sm-3 bg-primary p-3">col-3</div>
+                <div class="col-sm-3 bg-primary p-3">col-3</div>
+                <div class="col-sm-3 bg-primary p-3">col-3</div>
+            </div>
+        </div>
+    </body>
+</html>```
+
+`col-sm-3`을 `col-3`으로 진행해도 비슷하게 작동합니다.  
+`col-sm-3`은 모바일 화면에서 1줄(12칸)을 차지합니다.(540px 미만)  
+태블릿, 노트북, 데스크탑에서 3칸으로 적용됩니다(540px 이상)  
+`col-3`은 모든 화면에서 3칸으로 적용됩니다.
+
+##### 반응형 웹의 강력함이 느껴지나요?
+
+
+### [Card](https://getbootstrap.com/docs/4.3/components/card/)
+휴대폰, '패블릿', 태블릿, 데스크톱, 게임 콘솔, TV, 웨어러블 등 다양한 화면 크기가 존재합니다.  
+화면 크기는 항상 변하기 마련이므로, 현재나 미래에 모든 화면 크기에 맞게 사이트를 만드는 것이 중요합니다.  
+이에 적응한 대표적인 방식이 `Card`입니다.
+
+`mysite/main/templates/main/index.html`
+```html
+<html>
+    <head>
+        <title>Django Tutorial</title>
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- container 사용하기-->
+        <div class="container">
+            <h1>Card 사용하기</h1>
+            <!-- Grid 시스템을 사용하겠다 -->
+            <div class="row">
+                <!--첫번째 카드 : 태블릿 이상에서 4칸, 모바일에서 1줄(12칸)-->
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                      <!-- 이미지는 적당한걸 넣읍시다-->
+                      {% load static %}
+                      <img src="{% static 'haedal_logo.png' %}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+```
+
+이제 카드가 1개 생겼습니다
+확인해봅니다
+
+카드 4개짜리도 ㄱㄱ
+
+
+
+![img/bootstrapCard.png](img/bootstrapCard.png)
+
+### [Navbar](https://getbootstrap.com/docs/4.3/components/navbar/)
 많은 홈페이지에서 사용하는 상단 메뉴바를 만들어봅니다  
 [`Bootstrap` Navbar](https://getbootstrap.com/docs/4.3/components/navbar/)에 들어가 적당한 Navbar을 찾아 코드를 가져와 `<body>`태그 안에 붙입니다.  
 
@@ -88,10 +217,9 @@
             ... 엄청 길게 들어갑니다
             ... 놀라지 마세요
         </nav>
-        <h1>메인 페이지입니다</h1>
-        <!-- 정적 이미지 불러오기 -->
-        {% load static %}
-        <img src="{% static 'haedal_logo.png' %}">
+        <div class="container">
+            ...
+        </div>
     </body>
 </html>
 ```
