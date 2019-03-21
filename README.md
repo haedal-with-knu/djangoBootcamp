@@ -13,6 +13,10 @@
 * [Github 회원가입](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/githubSignUp.md)
 * [저도 오픈소스 프로젝트 진행하고 싶습니다](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/iWantOpensource.md)
 
+## 어떤걸 사용하나요?
+* [인생은 짧고, 파이썬은 쉽다](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/whyPython.md)
+* [Django가 뭐에요?](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/whatIsDjango.md)
+
 ## 강의 내용
 
 ### [1. 장고랑 친해지자](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/tutorials.md)  

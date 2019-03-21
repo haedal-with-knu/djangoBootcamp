@@ -23,6 +23,7 @@ $ git add .
 ```console
 $ git commit -m "이번에 코드를 업로드하는지 코멘트"
 ```
+
 * Git 저장소 설정
 ```console
 $ git remote add origin 레포지토리URL
@@ -37,4 +38,4 @@ $ git push origin master
 가이드를 따릅시다  
 
 ## 다음 강의는
-### [1. 장고랑 친해지자](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/tutorials.md)  
+### [인생은 짧고, 파이썬은 쉽다](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/whyPython.md)
