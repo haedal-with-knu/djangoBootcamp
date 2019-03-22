@@ -5,7 +5,7 @@
 데이터베이스 연동, 자체 템플릿 시스템, 세션 관리,
 코드 재사용 등의 기능들을 포함하고 있습니다.
 
-[프레임워크이 궁금하다면?](https://moolgogiheart.tistory.com/87)
+[프레임워크가 궁금하다면?](https://moolgogiheart.tistory.com/87)
 
 
 
