@@ -41,9 +41,9 @@ INSTALLED_APPS = [
 ```
 사용자가 접속시 첫 화면을 설정하고,  
 사용자가 어떤 url을 사용해 어디로 가게되는지 확인해봅시다  
-이제 `/mysite/tutorialdjango/urls.py`파일을 수정합니다
+이제 `/mysite/djangobootcamp/urls.py`파일을 수정합니다
 
-`/mysite/tutorialdjango/urls.py`
+`/mysite/djangobootcamp/urls.py`
 ```python
 from django.contrib import admin
 from django.urls import path
