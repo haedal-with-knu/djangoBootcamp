@@ -35,4 +35,5 @@
 ### [8. 로그인 및 회원가입]()
 ### [9. 클라우드 서버에 배포하기]()
 
-### [부록1. 프톤르엔드 라이브러리 - 부트스트랩](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/bootstrap.md)
+### [부록1. 프톤트엔드 라이브러리 - 부트스트랩](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/bootstrap.md)
+### [부록2. 리눅스 커맨드 익히자](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/linuxCommand.md)
