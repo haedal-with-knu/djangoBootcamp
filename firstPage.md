@@ -6,12 +6,12 @@
 
 가상환경부터 다시 켜봅니다
 ```console
-root@goorm:/workspace/djangoBootcamp/mysite(master)# source myvenv/bin/activate
+root@goorm:/workspace/djangoBootcamp/mysite# source myvenv/bin/activate
 ```
 가상환경이 실행되면 cmd 창에 `(myvenv)`가 추가됩니다  
 아래에서 확인해봅니다
 ```console
-(myvenv) root@goorm:/workspace/djangoBootcamp/mysite(master)#
+(myvenv) root@goorm:/workspace/djangoBootcamp/mysite#
 ```
 
 이제 지난번에 개발했던 환경과 동일해졌습니다.
@@ -19,7 +19,7 @@ root@goorm:/workspace/djangoBootcamp/mysite(master)# source myvenv/bin/activate
 `djangoBootcamp`프로젝트 안에서 동작할 `main` 어플리케이션을 만들어봅니다.  
 `main`어플리케이션 안에 첫 페이지를 만들겁니다.
 ```console
-(myvenv) root@goorm:/workspace/djangoBootcamp/mysite(master)# python3 manage.py startapp main
+(myvenv) root@goorm:/workspace/djangoBootcamp/mysite# python3 manage.py startapp main
 ```
 
 장고에게 어플리케이션이 추가되었음을 알려야합니다.  
@@ -76,17 +76,17 @@ def index(request):
 
 디렉토리(폴더) 만들기 `mysite/main/templates/main`
 ```console
-(myvenv) root@goorm:/workspace/djangoBootcamp/mysite(master)# mkdir -p main/templates/main
+(myvenv) root@goorm:/workspace/djangoBootcamp/mysite# mkdir -p main/templates/main
 ```
 
 원하는 디렉토리로 이동
 ```console
-(myvenv) root@goorm:/workspace/djangoBootcamp/mysite(master)# cd main/templates/main/
+(myvenv) root@goorm:/workspace/djangoBootcamp/mysite# cd main/templates/main/
 ```
 
 `mysite/main/templates/main` 디렉토리에 `index.html` 파일 만들기
 ```console
-(myvenv) root@goorm:/workspace/djangoBootcamp/mysite/main/templates/main(master)# touch index.html
+(myvenv) root@goorm:/workspace/djangoBootcamp/mysite/main/templates/main# touch index.html
 ```
 
 아래의 마크업을 `index.html` 파일에 입력합니다  
@@ -103,10 +103,18 @@ def index(request):
 ```
 
 `mysite` 경로로 돌아와 서버를 켜봅니다  
+
+서버를 켜기 전 main 어플리케이션을 `migrate`합니다
+
+```console
+(myvenv) root@goorm:/workspace/djangoBootcamp/mysite# python3 manage.py migrate
+```
+
+
 웹서버가 켜지고   
 접속해 아래의 그림이 뜨면 성공!
 ```console
-(myvenv) root@goorm:/workspace/djangoBootcamp/mysite(master)# python3 manage.py runserver 0:80
+(myvenv) root@goorm:/workspace/djangoBootcamp/mysite# python3 manage.py runserver 0:80
 ```
 ![img/firstMain.png](img/firstMain.png)
 
@@ -130,7 +138,7 @@ def index(request):
 
 `/mysite/static` 폴더 만들기
 ```
-(myvenv) root@goorm:/workspace/djangoBootcamp/mysite(master)# mkdir static
+(myvenv) root@goorm:/workspace/djangoBootcamp/mysite# mkdir static
 ```
 `/mysite/static` 폴더에 원하는 이미지를 한장 넣습니다  
 ![img/imgUpload1.png](img/imgUpload1.png)  
@@ -168,7 +176,7 @@ STATICFILES_DIRS = (
 웹서버가 켜지고   
 접속해 아래의 그림이 뜨면 성공!
 ```console
-(myvenv) root@goorm:/workspace/djangoBootcamp/mysite(master)# python3 manage.py runserver 0:80
+(myvenv) root@goorm:/workspace/djangoBootcamp/mysite# python3 manage.py runserver 0:80
 ```
 ![img/firstImg.png](img/firstImg.png)
 
