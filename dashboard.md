@@ -396,5 +396,8 @@ urlpatterns = [
 ![img/postingWithBlog1.png](img/postingWithBlog1.png)  
 ![img/postingWithBlog2.png](img/postingWithBlog2.png)  
 
-기본적인 게시판 만들기 재밌으셨나요?
+기본적인 게시판 만들기 재밌으셨나요?  
 수고하셨습니다
+
+## 다음 강의는
+### [4. 이미지 업로드](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/uploadImg.md)

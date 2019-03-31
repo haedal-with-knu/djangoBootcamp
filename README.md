@@ -27,7 +27,7 @@
 ### [3. 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
 
 
-### [4. 이미지 업로드]()
+### [4. 이미지 업로드](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/uploadImg.md)
 
 ### [5. 댓글]()
 ### [6. 검색]()
