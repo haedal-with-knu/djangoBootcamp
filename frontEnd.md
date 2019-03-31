@@ -460,4 +460,4 @@ Story 밑에 추천 친구의 목록도 만들어 볼게요.
 `html` `css`에 대해 더 공부하고 싶다면 [w3school](https://www.w3schools.com/)를 추천드려요:)
 
 ## 다음 강의는
-### [3. 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
+### [3. 기본적인 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)

@@ -24,7 +24,7 @@
 ### [2A. 첫 페이지 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/firstPage.md)
 ### [2B. 프론트엔드 입문 - [Instagram PC버전]](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/frontEnd.md)
 
-### [3. 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
+### [3. 기본적인 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
 
 
 ### [4. 이미지 업로드](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/uploadImg.md)
