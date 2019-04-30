@@ -26,7 +26,7 @@
 
 ### [3A. 기본적인 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
 
-### [3B. 예쁜 게시판 만들기]
+### [3B. 예쁜 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/beautifulCRUD.md)
 ### [4. 이미지 업로드](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/uploadImg.md)
 
 ### [5. 댓글]()
