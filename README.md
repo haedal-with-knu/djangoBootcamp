@@ -29,7 +29,7 @@
 ### [3B. 예쁜 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/beautifulCRUD.md)
 ### [4. 이미지 업로드](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/uploadImg.md)
 
-### [5. 댓글]()
+### [5. 댓글](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/reply.md)
 ### [6. 검색]()
 ### [7. 해시태그]()
 ### [8. 로그인 및 회원가입]()
