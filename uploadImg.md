@@ -85,9 +85,9 @@ class Post(models.Model):
 https://자기주소/admin  접속
 
 
-*** ID : 1234 ***
+***ID : 1234***
 
-*** password : 12341234 ***
+***password : 12341234***
 
 ![pillow_install](img/admin.png)
 
