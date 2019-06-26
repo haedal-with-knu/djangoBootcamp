@@ -81,6 +81,16 @@ class Post(models.Model):
 
 `pillow` 라이브러리 설치 완료
 
+
+https://자기주소/admin  접속
+
+
+***ID : 1234***
+
+***password : 12341234***
+
+![pillow_install](img/admin.png)
+
 ##### change post
 ![change_post_with_img](https://github.com/kei01138/djangoProject/raw/master/img/change_post_with_img.png)
 ##### add post
