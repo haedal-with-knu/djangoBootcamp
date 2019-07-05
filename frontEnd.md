@@ -459,5 +459,10 @@ Story 밑에 추천 친구의 목록도 만들어 볼게요.
 모두 수고하셨어요!  
 `html` `css`에 대해 더 공부하고 싶다면 [w3school](https://www.w3schools.com/)를 추천드려요:)
 
-## 다음 강의는
-### [3. 기본적인 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
+
+# 실습
+> 아래의 실습을 진행하신 분들은 조기 퇴근하셔도 됩니다  
+> 수고하셨습니다
+![ex1_1](img/ex1_HTML_CSS.png)
+![ex1_2](img/ex1_HTML_CSS_2.png)  
+
