@@ -466,3 +466,5 @@ Story 밑에 추천 친구의 목록도 만들어 볼게요.
 ![ex1_1](img/ex1_HTML_CSS.png)
 ![ex1_2](img/ex1_HTML_CSS_2.png)  
 
+### CSS로 스크롤바 만져보기
+
