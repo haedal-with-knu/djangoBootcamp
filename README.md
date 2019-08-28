@@ -22,7 +22,10 @@
 * [파이썬 : 반복](https://github.com/haedal-with-knu/instuctorTraining/blob/master/study/python_iteration.md)
 * [파이썬 : 함수](https://github.com/haedal-with-knu/instuctorTraining/blob/master/study/python_function.md)
 * [파이썬 : 클래스](https://github.com/haedal-with-knu/instuctorTraining/blob/master/study/python_class.md)
+* [파이썬으로 로또 뽑기](https://github.com/haedal-with-knu/instuctorTraining/blob/master/challenge/B.python_lotto_check.md)
+* [Flask를 통해 웹서버 입문하기](https://github.com/kei01138/flaskIntroduction)
 * [Django가 뭐에요?](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/whatIsDjango.md)
+* [Python anywhere 사용하기](https://github.com/haedal-with-knu/instuctorTraining/blob/master/challenge/D.python_anywhere.md)
 
 ## 강의 내용
 ### [0. 프론트엔드 입문 - [Instagram PC버전]](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/frontEnd.md)
