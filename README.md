@@ -14,7 +14,14 @@
 * [저도 오픈소스 프로젝트 진행하고 싶습니다](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/iWantOpensource.md)
 
 ## 어떤걸 사용하나요?
+* [HTML이란?](https://github.com/haedal-with-knu/instuctorTraining/blob/master/study/html.md)
+* [CSS란?](https://github.com/haedal-with-knu/instuctorTraining/blob/master/study/css.md)
 * [인생은 짧고, 파이썬은 쉽다](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/whyPython.md)
+* [파이썬 : 변수](https://github.com/haedal-with-knu/instuctorTraining/blob/master/study/python_variable.md)
+* [파이썬 : 조건](https://github.com/haedal-with-knu/instuctorTraining/blob/master/study/python_condition.md)
+* [파이썬 : 반복](https://github.com/haedal-with-knu/instuctorTraining/blob/master/study/python_iteration.md)
+* [파이썬 : 함수](https://github.com/haedal-with-knu/instuctorTraining/blob/master/study/python_function.md)
+* [파이썬 : 클래스](https://github.com/haedal-with-knu/instuctorTraining/blob/master/study/python_class.md)
 * [Django가 뭐에요?](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/intro/whatIsDjango.md)
 
 ## 강의 내용
