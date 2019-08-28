@@ -1,0 +1,3 @@
+[submodule "instuctorTraining"]
+	path = instuctorTraining
+	url = https://github.com/haedal-with-knu/instuctorTraining.git
