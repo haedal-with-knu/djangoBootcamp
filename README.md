@@ -33,17 +33,19 @@
 
 ### [2A. 첫 페이지 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/firstPage.md)
 
+### [3A. 오늘 점심 뭐 먹지?](https://github.com/kei01138/lunch)
+### [3B. Fake Google 만들기](https://github.com/kei01138/fakeGoogle)
 
-### [3A. 기본적인 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
+### [4A. 기본적인 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/dashboard.md)
 
-### [3B. 예쁜 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/beautifulCRUD.md)
-### [4. 이미지 업로드](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/uploadImg.md)
+### [4B. 예쁜 게시판 만들기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/beautifulCRUD.md)
+### [5. 이미지 업로드](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/uploadImg.md)
 
-### [5. 댓글](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/reply.md)
-### [6. 검색]()
-### [7. 해시태그]()
-### [8. 로그인 및 회원가입](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/login.md)
-### [9. 클라우드 서버에 배포하기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/cloud.md)
+### [6. 댓글](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/reply.md)
+### [7. 검색]()
+### [8. 해시태그]()
+### [9. 로그인 및 회원가입](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/login.md)
+### [10. 클라우드 서버에 배포하기](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/cloud.md)
 
 ### [부록1. 프톤트엔드 라이브러리 - 부트스트랩](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/bootstrap.md)
 ### [부록2. 리눅스 커맨드 익히자](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/linuxCommand.md)
